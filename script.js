@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         (BlingTV) - We-play
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0
 // @description  try to take over the world!
 // @author       Supernova
 // @require      https://raw.githubusercontent.com/chzbot001/blingtv/main/main.js
