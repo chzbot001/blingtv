@@ -10,5 +10,5 @@
   const player = controls.getPlayer();
   const config = {'controlPanelElements': ['play_pause','mute','volume','quality','language','overflow_menu','fullscreen']};
   ui.configure(config);
-    alert("OK");
+
 })();
