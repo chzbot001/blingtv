@@ -15,8 +15,8 @@
     
     
     $(document).ready(function(){ 
-        $("<button id=\"\" onclick=\"show();\">Show Player</button>").insertBefore("video");
-        $("<button id=\"\" onclick=\"showui();\">Show Player Controls</button>").insertBefore("video");
+        $("<button id=\"\" onclick=\"show();\">Show Player</button>").insertBefore("div.flex-item");
+        $("<button id=\"\" onclick=\"showui();\">Show Player Controls</button>").insertBefore("div.flex-item");
         document.getElementById("ustreamIframe").style.width = "900px";    
 });
 /*
