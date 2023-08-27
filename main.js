@@ -1,10 +1,10 @@
 /*(function() {
     'use strict';
 */
-    function show(){ 
+    const show = function (){ 
         $("#ad").show();
     }
-    function showui(){
+    const showui = function (){
         const video = document.getElementById('video');
       const ui = video.ui;
       const controls = ui.getControls();
