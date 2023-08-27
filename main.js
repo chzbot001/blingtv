@@ -1,9 +1,12 @@
 /*(function() {
     'use strict';
 */
-function showplayer(){
+/*function showplayer(){
         document.getElementById("ad").style.display = "block";
-    }
+    }*/
+$("#showplayer").on( "click", function() {
+document.getElementById("ad").style.display = "block";
+} );
     
     $(document).ready(function(){ 
         $("<button id=\"showplayer\" onclick=\"showplayer()\">Show Player</button>").insertBefore("div.flex-item");
