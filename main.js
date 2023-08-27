@@ -11,10 +11,12 @@ function onButtonClick() {
   alert('Button clicked!');
 }
 
-const newButton = document.createElement('button');
+
+$(document).ready ( function(){
+   const newButton = document.createElement('button');
 newButton.textContent = 'Click me!';
 document.body.appendChild(newButton);
-
+});​
 /*
 var widget = document.getElementById("ad");
 widget.innerHTML = '<button id="mahbutton" href="javascript:show()">Show Player</button>';
