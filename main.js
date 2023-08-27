@@ -7,16 +7,12 @@
   const config = {'controlPanelElements': ['play_pause','mute','volume','quality','language','overflow_menu','fullscreen']};
   ui.configure(config);
 
-function onButtonClick() {
-  alert('Button clicked!');
-}
-
-
-$(document).ready ( function(){
-   const newButton = document.createElement('button');
+document.addEventListener('DOMContentLoaded', function() {
+       const newButton = document.createElement('button');
 newButton.textContent = 'Click me!';
 document.body.appendChild(newButton);
-});​
+}, false);
+
 /*
 var widget = document.getElementById("ad");
 widget.innerHTML = '<button id="mahbutton" href="javascript:show()">Show Player</button>';
