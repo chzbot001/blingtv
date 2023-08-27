@@ -14,7 +14,7 @@ document.addEventListener("load", function(){
 });
   
 
-    
+    /*
   const video = document.getElementById('video');
   const ui = video.ui;
   const controls = ui.getControls();
@@ -22,5 +22,5 @@ document.addEventListener("load", function(){
   const config = {'controlPanelElements': ['play_pause','mute','volume','quality','language','overflow_menu','fullscreen']};
   ui.configure(config);
 
-    
+    */
 })();
