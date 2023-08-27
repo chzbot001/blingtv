@@ -4,9 +4,13 @@
     function show(){ 
         $("#ad").show();
     }
-    setTimeout(function(){ 
+document.addEventListener("load", function(){
+    // ....
+      setTimeout(function(){ 
         $("<button id=\"\" onclick=\"show();\">Show Player</button>").insertBefore("body");
     }, 10000);
+});
+  
 
     
   const video = document.getElementById('video');
