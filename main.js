@@ -6,27 +6,12 @@
   const player = controls.getPlayer();
   const config = {'controlPanelElements': ['play_pause','mute','volume','quality','language','overflow_menu','fullscreen']};
   ui.configure(config);
-
-function show(){ 
-       $("#ad").hide();
-}
-    function show() {
+    function show(){ 
         $("#ad").show();
     }
 setTimeout(function(){ 
-$("<button id=\"mahbutton\" href=\"javascript:show()\">Show Player</button>").insertBefore("body");
-
+$("<button id=\"\" onclick=\"show();\">Show Player</button>").insertBefore("body");
 }, 10000);
 
-/*
-var widget = document.getElementById("ad");
-widget.innerHTML = '<button id="mahbutton" href="javascript:show()">Show Player</button>';
-var w_btn = document.getElementById("mahbutton");
-
-function show(){ 
-       $("#ad").hide();
-}
-    function show() {
-        $("#ad").show();
-    }*/
+    
 })();
