@@ -4,8 +4,8 @@
 
     
     $(document).ready(function(){ 
-        $("<button id=\"\" onlick=\"showplayer();\">Show Player</button>").insertBefore("div.flex-item");
-        $("<button id=\"\" onlick=\"showui();\">Show Player Controls</button>").insertBefore("div.flex-item");
+        $("<button id=\"\" onlick=\"showplayer()\">Show Player</button>").insertBefore("div.flex-item");
+        $("<button id=\"\" onlick=\"showui()\">Show Player Controls</button>").insertBefore("div.flex-item");
         document.getElementById("ad").style.width = "60%";    
         
     const show = function (){ 
