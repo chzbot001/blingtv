@@ -8,7 +8,9 @@ document.addEventListener("load", function(){
     // ....
       setTimeout(function(){ 
         $("<button id=\"\" onclick=\"show();\">Show Player</button>").insertBefore("body");
+          document.getElementById("one").style.width = "50%;
     }, 10000);
+    
 });
   
 
