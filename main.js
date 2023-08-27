@@ -13,8 +13,8 @@
         document.getElementById("ad").style.width = "70%";
         document.getElementById("ustreamIframe").style.height = "700px";
     }
+        
     else if (window.location.pathname == "/player2X.php"){
-
         setTimeout(function(){
             const video = document.getElementById('video');
             const ui = video['ui'];
