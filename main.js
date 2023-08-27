@@ -1,4 +1,4 @@
-/*(function() {
+(function() {
     'use strict';
     $(document).ready(function(){
         $("<button style=\"background-color: #00f6ff;color: black;\" id=\"showplayer\">Show Player (กรณีจอหาย)</button>").insertBefore("#one > center > div > h3");
