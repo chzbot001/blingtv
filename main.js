@@ -17,7 +17,7 @@
     $(document).ready(function(){ 
         $("<button id=\"\" onclick=\"show();\">Show Player</button>").insertBefore("body");
         $("<button id=\"\" onclick=\"showui();\">Show Player UI</button>").insertBefore("body");
-        document.getElementById("one").style.width = "65%";    
+        document.getElementById("ustreamIframe").style.width = "900px";    
 });
 /*
 })();*/
